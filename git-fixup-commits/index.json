@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "messy-history.sh"
       },
       {
         "title": "Step 2",
@@ -23,14 +24,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "foo.js",
-          "target": "~/"
-        }
-      ]
     }
   },
   "environment": {
