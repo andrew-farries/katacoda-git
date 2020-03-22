@@ -5,13 +5,32 @@ git init .
 git add .
 
 git commit -m "Initial commit"
+git checkout -b topic-branch
 
-# Make this more realistic and use a here document.
+cat << END > index.js
+function hello_world {
+  console.log("Hello wrld")
+}
+END
+git commit -am "Add new function"
 
-echo "something" >> index.js
-git commit -am "Add a new function"
-echo "something" >> index.js
-git commit -am "Oops, forgot a semicolon"
-echo "something" >> index.js
-git commit -am "add missing curly brace"
+cat << END > index.js
+function hello_world {
+  console.log("Hello world")
+}
+END
+git commit -am "Fix typo"
 
+cat << END > index.js
+function hello_world() {
+  console.log("Hello world")
+}
+END
+git commit -am "Fix syntax error"
+
+cat << END > index.js
+function hello_world() {
+  console.log("Hello world");
+}
+END
+git commit -am "Add missing semicolon"
