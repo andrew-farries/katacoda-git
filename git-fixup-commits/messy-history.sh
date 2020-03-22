@@ -5,6 +5,8 @@ git init .
 git add .
 
 git commit -m "Initial commit"
+git branch topic-branch
+git checkout topic-branch
 
 cat << END > index.js
 function hello_world {
