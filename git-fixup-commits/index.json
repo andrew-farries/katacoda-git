@@ -6,13 +6,14 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Making fixup commits when rebasing",
         "text": "step1.md",
         "courseData": "messy-history.sh"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Marking commits as fixups",
+        "text": "step2.md",
+        "courseData": "shopping-list.sh"
       },
       {
         "title": "Step 3",
