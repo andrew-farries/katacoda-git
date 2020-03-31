@@ -14,10 +14,6 @@
         "title": "Marking commits as fixups",
         "text": "step2.md",
         "courseData": "shopping-list.sh"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
       }
     ],
     "intro": {
