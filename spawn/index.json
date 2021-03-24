@@ -1,0 +1,27 @@
+{
+  "title": "Introduction to Spawn",
+  "description": "Learn the basics of Spawn",
+  "difficulty": "Beginner",
+  "time": "3 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Creating a data image",
+        "text": "step1.md",
+        "answer": "step1-answer.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "git"
+  }
+}
