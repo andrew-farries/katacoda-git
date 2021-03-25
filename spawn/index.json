@@ -12,7 +12,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "intro.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -22,6 +23,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "git"
+    "imageid": "ubuntu:2004"
   }
 }
