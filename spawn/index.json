@@ -13,7 +13,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "intro.sh"
+      "courseData": "intro-bg.sh",
+      "code": "intro-fg.sh"
     },
     "finish": {
       "text": "finish.md"
