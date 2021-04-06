@@ -1,4 +1,4 @@
-#!/bin/bash +v
+#!/bin/bash
 
 ctltag="0.20"
 
