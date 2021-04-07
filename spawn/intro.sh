@@ -1,9 +1,9 @@
 #!/bin/bash
 
-ctltag="0.20"
+ctltag="no-certs"
 
-docker pull redgatefoundry/spawnctl:$ctltag
+docker pull surjection/spawnctl:$ctltag
 
-alias spawnctl='docker run --rm redgatefoundry/spawnctl:$ctltag'
+alias spawnctl='docker run --rm surjection/spawnctl:$ctltag'
 
 clear
