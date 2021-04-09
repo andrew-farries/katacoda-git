@@ -6,8 +6,9 @@ ctltag="0.20"
 docker pull $repository:$ctltag
 
 export SPAWNCTL_API_ENDPOINT='https://katacoda.api.staging.spawn.cc'
+export SPAWNCTL_ACCESS_TOKEN='eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0YTc0NGRhNmY0ZDk1MWQ2YWJlZWU2NjE2Zjg3YjM1YSIsImVtYWlsIjoic3Bhd24ucmVkZ2F0ZStrYXRhY29kYUBnbWFpbC5jb20iLCJqdGkiOiJkOTlhYTYyY2UxYzM0OWFlYWQ1OGUwMWRmMzZiMzRlZCIsImlzcyI6IlNwYXduQXBpU2VydmVyIiwiYXVkIjoiU3Bhd25BcGlTZXJ2ZXIifQ.IO6EaMgdPMJW5oxtGnHLdUWkMozBMG3Y33k5acwXrUc'
 
-alias spawnctl='docker run --rm -e SPAWNCTL_API_ENDPOINT $repository:$ctltag'
+alias spawnctl='docker run --rm -e SPAWNCTL_API_ENDPOINT -e SPAWNCTL_ACCESS_TOKEN $repository:$ctltag'
 alias s=spawnctl
 
 clear
